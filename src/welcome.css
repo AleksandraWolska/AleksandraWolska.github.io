@@ -34,6 +34,20 @@
   font-size: 25px;
 }
 
+@media only screen and (max-width: 1614px) {
+  
+#welcome-section {
+  background-image: url(images/welcome-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:70%;
+  height: 100vh;
+  font-size: 25px;
+}
+
+}
+
+
 @media only screen and (max-width: 769px) {
   #welcome-section {
     background-image: url(images/welcome-background-mobile.png);
