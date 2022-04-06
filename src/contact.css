@@ -1,0 +1,43 @@
+#contact-section {
+  min-height: 250px;
+  background: rgb(132, 140, 98);
+  background: linear-gradient(
+    300deg,
+    rgba(132, 140, 98, 1) 0%,
+    rgb(53, 56, 39) 100%
+  );
+  color: white;
+
+  display: flex;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 60px 30px 60px;
+}
+
+.links {
+  filter: invert();
+  display: flex;
+  flex-direction: row;
+}
+.links .social {
+  margin: 10px;
+}
+
+@media only screen and (max-width: 740px) {
+  #contact-section {
+    height: 400px;
+    background: rgb(132, 140, 98);
+    background: linear-gradient(
+      300deg,
+      rgba(132, 140, 98, 1) 0%,
+      rgb(53, 56, 39) 100%
+    );
+    color: white;
+
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 60px 30px 60px;
+  }
+}

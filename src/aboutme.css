@@ -1,0 +1,27 @@
+#about-me-section {
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+  justify-content: end;
+}
+
+.info {
+  width: 85%;
+}
+
+.info p {
+  margin: 10px;
+  font-size: 1.2em;
+}
+
+highlight {
+  background-color: #bec4a7;
+  padding: 0px 6px 0px 6px;
+}
+
+@media screen and (max-width: 600px) {
+  #about-me-section {
+    padding: 30px;
+    justify-content: end;
+  }
+}

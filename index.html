@@ -15,7 +15,7 @@
     <meta property="og:url" content="https://aleksandrawolska.github.io/">
     <meta property="og:description" content="Portfolio showing my path through frontend">
     <meta property="og:image" content="image.png">
-    
+
     <link rel="stylesheet" href="src/welcome.css">
     <link rel="stylesheet" href="src/styles.css">
     <link rel="stylesheet" href="src/projects.css">
@@ -30,21 +30,17 @@
 
 <body>
 
-
-
     <section id="welcome-section">
-    <header id="header">
-        <nav>
-            <a href="#welcome-section"><img  class="home" src="src/images/home.png" alt="Home Logo"></a>
+        <header id="header">
+            <a href="#welcome-section"><img class="home" src="src/images/home.png" alt="Home Logo"></a>
             <div class="menu" id="menu">
                 <div class="menu-item" onclick="toggleHamburgerMenu()"><a href="#about-me-section">About me</a></div>
                 <div class="menu-item" onclick="toggleHamburgerMenu()"><a href="#project-section">Projects</a></div>
                 <div class="menu-item" onclick="toggleHamburgerMenu()"><a href="#contact-section">Contact</a></div>
-                <div class="hamburger" onclick="toggleHamburgerMenu()"><img src="src/images/hamburger-icon.png" alt="Open menu"/></div>
             </div>
-        </nav>
-    </header>
-
+            <div class="hamburger" onclick="toggleHamburgerMenu()"><img src="src/images/hamburger-icon.png"
+                    alt="Open menu" /></div>
+        </header>
 
 
 
@@ -53,21 +49,20 @@
                 <h1>ALEKSANDRA WOLSKA</h1>
                 <p>soon frontend developer</p>
                 <div class="custom-button">About Me</div>
-               
             </div>
 
             <div class="socials">
-
-                <div><a href="https://github.com/AleksandraWolska" class="social" src="src/images/github-icon-2.svg"
-                        alt="Github icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                <div><a href="https://github.com/AleksandraWolska" src="src/images/github-icon-2.svg" alt="Github icon">
+                        <svg class="social" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                            viewBox="0 0 24 24">
                             <path
                                 d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z" />
                         </svg>
                     </a></div>
-                <div><a href="https://www.linkedin.com/in/aleksandra-wolska-49772717b/" class="social"
+                <div><a href="https://www.linkedin.com/in/aleksandra-wolska-49772717b/"
                         src="src/images/linkedin-icon-1.svg" alt="linkedin icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                        <svg class="social" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                            viewBox="0 0 24 24">
                             <path
                                 d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                         </svg>
@@ -77,25 +72,36 @@
         </div>
     </section>
 
-    <section id="about-me-section">
-        <div class="info">
-            <h2>About me</h2>
-            <p>Hello! My name is Aleksandra Wolska, I'm a student of Applied Informatics. Bla bla lorem ipsum generalnie
-            </p>
-        </div>
-        <div class="headshot-container">
-            <img class="headshot" src="">
-        </div>
-    </section>
 
+    <section id="about-me-section">
+
+        <div class="info">
+            <h2>My name is <highlight>Aleksandra Wolska</highlight>.</h2>
+            <p>I started my adventure with frontend while studying Architecture, where I became interested in designing
+                websites.
+                I was very satisfied with reconstructing my own graphic projects using CSS. </p>
+            <p>Thanks to my artistic interests in drawing and photography, neither the composition of elements nor
+                selection of colors are a problem for me.</p>
+            <p><b> Due to a new hobby related to web design, I decided to change my studies to Applied Computer
+                    Science</b> at the Wrocław University of Technology.
+                There I spent my time learning Java, algorithms, design patterns and writing clean code in several
+                different languages.</p>
+            <p>As for web development, <b>I have mastered HTML and CSS, and I am constantly learning JS with React</b>.
+                Below are the projects that I deployed, the rest are in the Github repositories</p>
+        </div>
+
+    </section>
 
 
     <section id="project-section">
 
-        <h2>Projects</h2>
-        <div class="projects-container">
+        <div class="project-title">
+            <h2>deployed projects</h2>
+        </div>
 
-            <div class="project-card" onclick="window.open('https://aleksandrawolska.github.io/store.io/', 'window-store');">
+        <div class="projects-container">
+            <div class="project-card"
+                onclick="window.open('https://aleksandrawolska.github.io/store.io/', 'window-store');">
                 <img class="project-image" alt="Store project" src="src/images/project1_store.png" />
                 <div class="project-info">
                     <div class="project-text">
@@ -113,8 +119,9 @@
             </div>
 
 
-            <div class="project-card" onclick="window.open('https://aleksandrawolska.github.io/photo-gallery.io/', 'window-gallery');">
-                <img class="project-image" alt="Store project" src="src/images/project2_gallery.png" />
+            <div class="project-card"
+                onclick="window.open('https://aleksandrawolska.github.io/photo-gallery.io/', 'window-gallery');">
+                <img class="project-image" alt="Photo Gallery project" src="src/images/project2_gallery.png" />
                 <div class="project-info">
                     <div class="project-text">
                         <h3>Photography gallery</h3>
@@ -131,11 +138,12 @@
             </div>
 
 
-            <div class="project-card" onclick="window.open('https://aleksandrawolska.github.io/store.io/', 'window123');">
+            <div class="project-card"
+                onclick="window.open('https://aleksandrawolska.github.io/store.io/', 'window123');">
                 <img class="project-image" alt="Store project" src="src/images/project1_store.png" />
                 <div class="project-info">
                     <div class="project-text">
-                        <h3>Photography gallery</h3>
+                        <h3>Not yet ready</h3>
                         <p>Responsive gallery with my photography. I focused on CSS.
                             Styled with only CSS.</p>
                         <div class="technologies">
@@ -147,32 +155,41 @@
                     </div>
                 </div>
             </div>
-
-
-            <div class="project-card">
-                <img class="project-image" alt="Store project" src="src/images/project1_store.png" />
-                <div class="project-info">
-                    <div class="project-text">
-                        <h3>Photography gallery</h3>
-                        <p>Responsive gallery with my photography. I focused on CSS.
-                            Styled with only CSS.</p>
-                        <div class="technologies">
-                            <img src="src/images/react-icon.png" alt="react-icon" />
-                            <img src="src/images/js-icon.png" alt="js-icon" />
-                            <img src="src/images/css-icon.png" alt="css-icon" />
-                            <img src="src/images/html-icon.png" alt="html-icon" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
 
         </div>
-
     </section>
-    <footer id="contact-section"></footer>
 
+
+
+    <div id="contact-section">
+
+        <div class="my-info">
+            <p>Aleksandra Wolska</p>
+            <p>+48 790 563 299</p>
+            <p>aleksandra.joanna.wolska@gmail.com</p>
+        </div>
+
+        <div class="links">
+            <div><a href="https://github.com/AleksandraWolska" src="src/images/github-icon-2.svg" alt="Github icon">
+                    <svg class="social" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z" />
+                    </svg>
+                </a></div>
+            <div><a href="https://www.linkedin.com/in/aleksandra-wolska-49772717b/" src="src/images/linkedin-icon-1.svg"
+                    alt="linkedin icon">
+                    <svg class="social" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
+                </a></div>
+        </div>
+
+        <div>
+            <p>More soon....</p>
+        </div>
+
+    </div>
 
 
     <script src="src/app.js"></script>
