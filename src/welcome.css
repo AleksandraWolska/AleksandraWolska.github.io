@@ -40,7 +40,7 @@
   background-image: url(images/welcome-background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position:70%;
+  background-position:70% 0%;
   height: 100vh;
   font-size: 25px;
 }
