@@ -14,6 +14,8 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 30px 60px 30px 60px;
+  overflow-wrap: break-word;
+
   
 }
 
@@ -40,5 +42,6 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 30px 60px 30px 60px;
+    overflow-wrap: break-word;
   }
 }
