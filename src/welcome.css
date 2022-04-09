@@ -89,7 +89,7 @@
   .socials {
     filter: invert();
     display: flex;
-    flex-direction: row-reverse;
+    align-self: flex-end;
     
   }
   .social {
