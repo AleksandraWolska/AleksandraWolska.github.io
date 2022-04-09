@@ -89,11 +89,12 @@
   .socials {
     filter: invert();
     display: flex;
-    flex-direction: row;
-    align-self: flex-end;
+    flex-direction: row-reverse;
+    
   }
   .social {
     margin: 10px;
+    
   }
 }
 
