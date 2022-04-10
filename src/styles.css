@@ -38,7 +38,7 @@ section {
 header {
   z-index: 5;
   position: fixed;
-  width: 100vw;
+  width: 100%;
   top: 0;
   background: rgba(0, 0, 0, 0.2);
   display: flex;
@@ -55,7 +55,7 @@ a {
 }
 
 a:hover {
-  color: #333333;
+  color: #b4b4b4;
 }
 
 h2 {
@@ -108,7 +108,7 @@ p {
   #header {
     background: none;
     color: white;
-    width: 100vw;
+    width: 100%;
   }
 
   .menu .menu-item {
