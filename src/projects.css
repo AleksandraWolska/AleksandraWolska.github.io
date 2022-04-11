@@ -28,7 +28,7 @@
   position: relative;
   width: 300px;
   height: 400px;
-  border: 1px solid #888888;
+  border: none;
   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.6);
   margin: 15px;
   overflow: hidden;
